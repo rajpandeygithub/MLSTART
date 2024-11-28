@@ -1,0 +1,49 @@
+Model Performance Report (Regression Task)
+==================================================
+
+Summary Table (All Metrics at a Glance):
+Model                    MAE            MSE            RMSE           Average Rank   
+-------------------------------------------------------------------------------------
+Linear Regression        1.021e+10      6.053e+20      2.460e+10      3.00           
+Ridge Regression         0.3133         0.1604         0.4005         1.33           
+Decision Tree            0.3029         0.2047         0.4525         1.67           
+
+Metric: MAE (Lower is Better)
+Mean Absolute Error: Average of absolute errors.
+--------------------------------------------------
+Model                     MAE             Rank 
+-----------------------------------------------
+Linear Regression         1.021e+10       3    
+Ridge Regression          0.3133          2    
+Decision Tree             0.3029          1    
+
+Metric: MSE (Lower is Better)
+Mean Squared Error: Average of squared errors.
+--------------------------------------------------
+Model                     MSE             Rank 
+-----------------------------------------------
+Linear Regression         6.053e+20       3    
+Ridge Regression          0.1604          1    
+Decision Tree             0.2047          2    
+
+Metric: RMSE (Lower is Better)
+Root Mean Squared Error: Square root of MSE.
+--------------------------------------------------
+Model                     RMSE            Rank 
+-----------------------------------------------
+Linear Regression         2.460e+10       3    
+Ridge Regression          0.4005          1    
+Decision Tree             0.4525          2    
+
+Overall Rankings
+==================================================
+Model                     Average Rank   
+--------------------------------------------------
+Decision Tree             1.67           
+Ridge Regression          1.33            *Best*
+Linear Regression         3.00           
+==================================================
+
+Best Model: Ridge Regression
+Based on the evaluation, Ridge Regression is the top-performing model for your dataset.
+We recommend starting with this model for your task as it has the best overall performance.

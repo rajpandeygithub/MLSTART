@@ -1,0 +1,58 @@
+Model Performance Report (Classification Task)
+==================================================
+
+Summary Table (All Metrics at a Glance):
+Model                    Accuracy       Precision      Recall         F1 Score       Average Rank   
+----------------------------------------------------------------------------------------------------
+Logistic Regression      1.0000         1.0000         1.0000         1.0000         1.00           
+Decision Tree            1.0000         1.0000         1.0000         1.0000         2.00           
+K-Nearest Neighbors      1.0000         1.0000         1.0000         1.0000         3.00           
+
+Metric: Accuracy (Higher is Better)
+Measures the proportion of correct predictions.
+--------------------------------------------------
+Model                     Accuracy        Rank 
+-----------------------------------------------
+Logistic Regression       1.0000          1    
+Decision Tree             1.0000          2    
+K-Nearest Neighbors       1.0000          3    
+
+Metric: Precision (Higher is Better)
+Measures how many selected items are relevant.
+--------------------------------------------------
+Model                     Precision       Rank 
+-----------------------------------------------
+Logistic Regression       1.0000          1    
+Decision Tree             1.0000          2    
+K-Nearest Neighbors       1.0000          3    
+
+Metric: Recall (Higher is Better)
+Measures how many relevant items are selected.
+--------------------------------------------------
+Model                     Recall          Rank 
+-----------------------------------------------
+Logistic Regression       1.0000          1    
+Decision Tree             1.0000          2    
+K-Nearest Neighbors       1.0000          3    
+
+Metric: F1 Score (Higher is Better)
+Harmonic mean of precision and recall.
+--------------------------------------------------
+Model                     F1 Score        Rank 
+-----------------------------------------------
+Logistic Regression       1.0000          1    
+Decision Tree             1.0000          2    
+K-Nearest Neighbors       1.0000          3    
+
+Overall Rankings
+==================================================
+Model                     Average Rank   
+--------------------------------------------------
+Logistic Regression       1.00            *Best*
+Decision Tree             2.00           
+K-Nearest Neighbors       3.00           
+==================================================
+
+Best Model: Logistic Regression
+Based on the evaluation, Logistic Regression is the top-performing model for your dataset.
+We recommend starting with this model for your task as it has the best overall performance.
