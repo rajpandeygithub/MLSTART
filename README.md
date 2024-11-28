@@ -49,7 +49,7 @@ This keeps the instructions clear and simple while specifying the balance requir
 ### Example Code
 
 ```python
-from mlstart.pipeline import MLStartPipeline
+from mlstart.run_pipeline import MLStartPipeline
 
 # Initialize the pipeline with your dataset file and target column
 pipeline = MLStartPipeline(file_name="your_dataset.csv", target_column="target_column_name")
@@ -77,15 +77,20 @@ Here’s what the report includes:
 ## Folder Structure
 
 ```plaintext
-.
-├── data/                 # Place your input CSV files here
-├── report_output/        # Contains generated reports
-├── core/                 # Core modules like data loading and task identification
-├── processing/           # Preprocessing and data preparation modules
-├── models/               # Model training and evaluation modules
-├── reporting/            # Report generation module
-├── requirements.txt      # Dependencies for the project
+MLStart/
+├── mlstart/              # All the code goes inside this main module folder
+│   ├── core/             # Core modules like data loading and task identification
+│   ├── processing/       # Preprocessing and data preparation modules
+│   ├── models/           # Model training and evaluation modules
+│   ├── reporting/        # Report generation module
+│   ├── __init__.py       # Makes 'mlstart' a package
+│   ├── run_pipeline.py   # Main pipeline orchestration script
+├── data/                 # Input CSV files
+├── report_output/        # Generated reports
+├── example_usage.py      # Example usage of the library
+├── requirements.txt      # Project dependencies
 ├── README.md             # Project documentation
+├── .gitignore            # Git ignore file
 ```
 
 ---

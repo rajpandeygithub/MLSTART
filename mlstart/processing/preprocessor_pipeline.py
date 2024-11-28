@@ -20,13 +20,13 @@ class PreprocessorPipeline:
         :param categorical_columns: A list of column names identified as categorical.
         :return: A preprocessed dataset as a list of dictionaries.
         """
-        from preprocessors.remove_invalid_columns import RemoveInvalidColumns
-        from preprocessors.normalize_missing_values import NormalizeMissingValues
-        from preprocessors.handle_missing_values import HandleMissingValues
-        from preprocessors.encode_categorical import EncodeCategorical
-        from preprocessors.scale_numeric import ScaleNumeric
-        from preprocessors.remove_duplicates import RemoveDuplicates
-        from preprocessors.handle_outliers import HandleOutliers
+        from mlstart.preprocessors.remove_invalid_columns import RemoveInvalidColumns
+        from mlstart.preprocessors.normalize_missing_values import NormalizeMissingValues
+        from mlstart.preprocessors.handle_missing_values import HandleMissingValues
+        from mlstart.preprocessors.encode_categorical import EncodeCategorical
+        from mlstart.preprocessors.scale_numeric import ScaleNumeric
+        from mlstart.preprocessors.remove_duplicates import RemoveDuplicates
+        from mlstart.preprocessors.handle_outliers import HandleOutliers
 
         data = RemoveInvalidColumns.process(data)
         data = NormalizeMissingValues.process(data, numeric_columns,categorical_columns)

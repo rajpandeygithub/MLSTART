@@ -1,4 +1,4 @@
-from models.model_evaluation import ModelEvaluator
+from mlstart.models.model_evaluation import ModelEvaluator
 
 class ModelComparator:
   """

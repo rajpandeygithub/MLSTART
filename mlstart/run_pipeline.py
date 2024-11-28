@@ -1,11 +1,11 @@
-from core.data_loader import DataLoader
-from core.task_identifier import TaskIdentifier
-from core.column_identifier import ColumnIdentifier
-from processing.preprocessor_pipeline import PreprocessorPipeline
-from processing.datahandler import DataHandler
-from models.model_trainer import ModelTrainer
-from models.model_comparison import ModelComparator
-from reporting.report_generator import ReportGenerator
+from mlstart.core.data_loader import DataLoader
+from mlstart.core.task_identifier import TaskIdentifier
+from mlstart.core.column_identifier import ColumnIdentifier
+from mlstart.processing.preprocessor_pipeline import PreprocessorPipeline
+from mlstart.processing.datahandler import DataHandler
+from mlstart.models.model_trainer import ModelTrainer
+from mlstart.models.model_comparison import ModelComparator
+from mlstart.reporting.report_generator import ReportGenerator
 import os
 
 
