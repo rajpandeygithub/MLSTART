@@ -50,6 +50,7 @@ pip install -r requirements.txt
 - **Categorical Columns**: Should represent categories as text or integers. For example, "Male/Female" or "1/0". Columns with invalid values (e.g., symbols like `-`, empty strings) will be treated as missing data and handled appropriately.
 - **For Classification**: The target column should have **balanced classes** (e.g., not highly imbalanced target classes, like 95% of one class and 5% of another).
 - **For Regression**: The target column should have numeric values.
+- **Input Rows**: Each row in the dataset should not have more columns than specified in the column headers.
 ---
 
 #### How to Use MLStart (Example Code) 
