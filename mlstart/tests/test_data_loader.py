@@ -33,4 +33,4 @@ class TestDataLoader(unittest.TestCase):
         data_loader = DataLoader("data/partial_valid.csv")
         headers, data = data_loader.load_data()
         self.assertIsNotNone(headers)
-        self.assertGreater(len(data), 0)  # Check that valid rows are still loaded
+        self.assertGreater(len(data), 0) 
