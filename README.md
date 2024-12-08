@@ -59,7 +59,7 @@ pip install -r requirements.txt
    - Ensure the dataset meets the input requirements mentioned above.
 
 2. **Create and Run a Python File**:
-   - Open a text editor or IDE and create a new Python file (e.g., `run_mlstart.py`).
+   - Open a text editor or IDE and create a new Python file (e.g., `example_usage.py`).
    - Add the following code:
 
      ```python
@@ -80,7 +80,7 @@ pip install -r requirements.txt
    - Execute the file with the following command:
 
      ```bash
-     python run_mlstart.py
+     python example_usage.py
      ```
 
 4. **View the Results**:
